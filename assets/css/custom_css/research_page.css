@@ -1,0 +1,1 @@
+:root{--cyan-color:#2698ba;--red-color-dark:#b71c1c}html[data-theme="dark"]{--text-color:var(--cyan-color)}html[data-theme="light"]{--text-color:var(--red-color-dark)}.post-header .post-description{font-size:medium;text-align:justify}.projects .category{color:var(--text-color)!important}
