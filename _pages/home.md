@@ -28,5 +28,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 <p class="text-justify">
-We focus on the design and development of algorithms to enable robust decision theory becomes practical computational tools for robotics and related domain. Such computational tools will enable robots to design their own strategies, such as deciding what data to use, how to gather the data, and how to adaptively improve its strategies, so as to accomplish various tasks well, despite various modelling errors and types of uncertainty, and despite limited to no information about the system and its operating environment.
+Our lab focuses on computational representations and methods that will enable robots to operate fluently in our environments --operating reliably, efficiently, and safely in various scenarios, adapting to changes and new understanding about its surrounding. To this end, we have extensive works in sequential decision-making under uncertainty and its applications, motion planning, inspection planning, computational geometry, reinforcement learning, integrated planning and learning, and safety assurance of autonomous systems. 
+</p>
+
+<p class="text-justify">
+One of our major line of works is the development of highly scalable and adaptable approximate solvers for mathematically principled sequential decision-making under uncertainty frameworks, such as Partially Observable Markov Decision Processes (POMDPs). Such solvers will enable robots to design their own strategies, such as deciding what data to use, how to gather the data, and how to adaptively improve its strategies, so as to accomplish various tasks well, despite various modelling errors and types of uncertainty, and despite limited to no information about the system and its operating environment. 
+</p>
+
+<p class="text-justify">
+More details about our work are available in our project page.
 </p>
