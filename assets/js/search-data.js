@@ -121,7 +121,12 @@ ninja.data = [{
           section: "News",},{id: "news-stay-tuned-we-are-heavily-updating-this-website-a-large-part-of-this-website-has-not-been-updated-since-2020",
           title: 'Stay tuned, we are heavily updating this website (a large part of this...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-a-pomdp-approach-for-safety-assessment-of-autonomous-cars",
+          title: 'A POMDP Approach for Safety Assessment of Autonomous Cars',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project_rdl/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
