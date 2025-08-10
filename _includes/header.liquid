@@ -5,7 +5,7 @@
       {% unless site.enable_navbar_social %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.logo %}
-            <img src={{ site.logo | prepend: '/assets/img/' | relative_url | bust_file_cache}} class="img-fluid" style="height: 60px;" alt="">
+            <img src={{ 'robotics_and_lab_logo.png' | prepend: '/assets/img/' | relative_url | bust_file_cache}} class="img-fluid" style="height: 60px;" alt="">
           {% else %}
             {% if site.title == 'blank' %}
               {% if site.first_name %}
