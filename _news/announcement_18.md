@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Jonathon Schwartz is now Dr Jonathon Schwartz! And is now working at [Imbue](https://imbue.com). Congratulations, Johnny!
+Jonathon Schwartz is now Dr Jonathon Schwartz! He is now working at [Imbue](https://imbue.com). Congratulations, Johnny!
