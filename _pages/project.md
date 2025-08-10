@@ -6,7 +6,7 @@ description: We focus on the design and development of algorithms to enable robu
 nav: true
 nav_order: 1
 display_categories: [active]
-horizontal: false
+horizontal: true
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
