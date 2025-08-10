@@ -133,7 +133,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-pomdp-planning-for-problems-with-complex-dynamics",
           title: 'POMDP Planning for Problems with Complex Dynamics',
-          description: "Many POMDP (Partially Observable Markov Decision Process) solvers that can compute good approximate solutions on-line have been proposed. Some of them can even find good solutions in near real-time for several realistic problems. In this project, we aim to make on-line POMDP solvers more tractable for systems with complex non-linear dynamics.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project_rdl/";
             },},{id: "projects-project-2",
@@ -143,7 +143,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-pomdp-planning-for-problems-with-large-discrete-action-space",
           title: 'POMDP Planning for Problems with Large Discrete Action Space',
-          description: "Many good approximate POMDP (Partially Observable Markov Decision Process) solvers have been proposed since mid 2000, allowing POMDP to generate good strategies for realistic problems. Despite these advances, solving problems with large discrete action spaces remains difficult. This project aims to reduce such difficulties.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project_rdl/";
             },},{id: "projects-project-3-with-very-long-name",
@@ -153,7 +153,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-on-line-pomdp-planning-toolkit-oppt",
           title: 'On-line POMDP Planning Toolkit (OPPT)',
-          description: "In this project, we develop On-line POMDP Planning Toolkit (OPPT) that allows users to specify POMDP model of motion planing problems via a configuration file and 3D models of the robot and environment.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project_rdl/";
             },},{id: "projects-project-4",
@@ -163,7 +163,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-partially-observed-inventory-control",
           title: 'Partially Observed Inventory Control',
-          description: "POMDP for inventory control",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project_rdl/";
             },},{id: "projects-project-5",
@@ -171,8 +171,8 @@ ninja.data = [{
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-",
-          title: '',
+            },},{id: "projects-incorporating-defender-39-s-behaviour-in-autonomous-pen-testing",
+          title: 'Incorporating Defender&amp;#39;s Behaviour in Autonomous Pen-Testing',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project_rdl/";
@@ -183,7 +183,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-scaling-long-horizon-online-pomdp-planning-with-rapid-state-space-sampling",
           title: 'Scaling Long-Horizon Online POMDP Planning with Rapid State Space Sampling',
-          description: "Analytically solving the reference-based POMDP bellman backup removes the need of neumerical optimisation during planning, and enables seemless integration of state space sampling and belief space sampling to solve long horizon POMDPs online.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project_rdl/";
             },},{id: "projects-project-7",
@@ -193,7 +193,7 @@ ninja.data = [{
               window.location.href = "/projects/7_project/";
             },},{id: "projects-approximate-pomdp-solving-without-numerical-optimisation-neurips-ijcai",
           title: 'Approximate POMDP Solving without Numerical Optimisation (NeurIPS + IJCAI)',
-          description: "POMDP solver approximation",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project_rdl/";
             },},{id: "projects-project-8",
@@ -203,7 +203,7 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "projects-inspection-planning-primitives-with-implicit-models",
           title: 'Inspection Planning Primitives with Implicit Models',
-          description: "A memory-efficient inspection planning framework that replace all planning primitives with implicit environment models.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project_rdl/";
             },},{id: "projects-project-9",
@@ -213,7 +213,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-adaptive-discretization-using-voronoi-trees-for-continuous-pomdps",
           title: 'Adaptive Discretization using Voronoi Trees for Continuous POMDPs',
-          description: "ADVT is a Monte Carlo Tree Search-based POMDP solver that uses Voronoi Trees to adaptively discretize high-dimensional continuous action spaces for more efficient planning. It outperforms existing methods by focusing exploration on promising regions and effectively handling continuous observations using progressive widening.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project_rdl/";
             },},{
