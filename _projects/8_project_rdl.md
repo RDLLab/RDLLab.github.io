@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inspection Planning Primitives with Implicit Models 
-description: A memory-efficient inspection planning framework that replace all planning primitives with implicit environment models.
+description:
 img: assets/img/project_img/ipim/3h.png
 importance: 8
 category: active

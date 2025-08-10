@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A POMDP Approach for Safety Assessment of Autonomous Cars
-# description:
+description:
 img: assets/img/project_img/safety/preview.png
 importance: 10
 category: active

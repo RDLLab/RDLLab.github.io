@@ -1,7 +1,7 @@
 ---
 layout: page
 title: POMDP Planning for Problems with Complex Dynamics
-description: Many POMDP (Partially Observable Markov Decision Process) solvers that can compute good approximate solutions on-line have been proposed. Some of them can even find good solutions in near real-time for several realistic problems. In this project, we aim to make on-line POMDP solvers more tractable for systems with complex non-linear dynamics.
+description:
 img: assets/img/project_img/complex_dynamics/thumb-pomdp-complex-dynamics.png
 importance: 1
 category: active

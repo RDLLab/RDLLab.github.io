@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adaptive Discretization using Voronoi Trees for Continuous POMDPs
-description: ADVT is a Monte Carlo Tree Search-based POMDP solver that uses Voronoi Trees to adaptively discretize high-dimensional continuous action spaces for more efficient planning. It outperforms existing methods by focusing exploration on promising regions and effectively handling continuous observations using progressive widening.
+description:
 img: assets/img/project_img/continuous_pomdps/partition_tree.png
 importance: 9
 category: active

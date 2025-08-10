@@ -1,7 +1,7 @@
 ---
 layout: page
 title: POMDP Planning for Problems with Large Discrete Action Space
-description: Many good approximate POMDP (Partially Observable Markov Decision Process) solvers have been proposed since mid 2000, allowing POMDP to generate good strategies for realistic problems. Despite these advances, solving problems with large discrete action spaces remains difficult. This project aims to reduce such difficulties.
+description:
 img: assets/img/project_img/large_discrete_action_space/thumb-pomdp-large-discrete-action-spaces.png
 importance: 2
 category: active
