@@ -1,6 +1,6 @@
 # How to setup a content.
 
-This site is created using a template, so for general documentation to customize the website please refer to the template documentation in [README.md](/README.md). **This documentation only provide specific tutorial to change the content of each page in our updated lab website.** 
+This site is created using a template, so for general documentation to customize the website please refer to the template documentation in [README.md](/README-al-folio.md). **This documentation only provide specific tutorial to change the content of each page in our updated lab website.** 
 
 ## Setup content in home page
 
