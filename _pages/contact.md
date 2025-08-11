@@ -49,7 +49,7 @@ announcements:
         </p>
         <div class="d-flex align-items-center mb-2">
           <i class="ti ti-mail mr-3" style="font-size: 30px;"></i>
-          <span>email: robotics.comp.cecc@anu.edu.au@anu.edu.au</span>
+          <span>email: robotics.comp.cecc@anu.edu.au</span>
         </div>
         <div class="d-flex align-items-center">
           <i class="ti ti-phone mr-3" style="font-size: 30px;"></i>
