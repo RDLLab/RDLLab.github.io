@@ -223,24 +223,17 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project_rdl/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%72%64%6C%6C%61%62@%61%6E%75.%65%64%75.%61%75", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/RDLLab", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-anu_logo',
+        title: 'Anu_logo',
         section: 'Socials',
         handler: () => {
           window.open("https://www.anu.edu.au/", "_blank");
+        },
+      },{
+        id: 'social-robotics_logo',
+        title: 'Robotics_logo',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },];
