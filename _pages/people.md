@@ -32,6 +32,16 @@ profiles:
       <p>Research Fellow<br>
       School of Computing<br>
       Australian National University</p>
+  - name: Marcus Hoerger
+    image: people/active_members/marcus.jpg
+    position: Staff
+    personal_web: 
+    email: Marcus.Hoerger@anu.edu.au
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Research Fellow<br>
+      School of Computing<br>
+      Australian National University</p>
   
   # HDR
   - name: Ivan Ang
@@ -157,16 +167,18 @@ profiles:
     more_info: >
       <p>PhD Graduate<br>
       location: School of Computing, ANU
+      graduation year: 2025<br>
+      current: Working at Imbue
       </p>
   - name: Marcus Hoerger
-    image: people/alumni/empty.jpg
+    image: people/active_members/marcus.jpg
     position: HDR alumni
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Phd Graduate<br>
       location: UQ<br>
       graduation year: 2020<br>
-      current: Research Fellow at UQ</p>
+      current: Research Fellow at ANU</p>
   - name: Joshua Song
     image: people/alumni/empty.jpg
     position: HDR alumni
