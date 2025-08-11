@@ -28,14 +28,9 @@ announcements:
 <h2>Examples of our works:</h2>
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-6 mb-3">
+    <div class="col-md-9 mb-3">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kHgLxKiNYmE" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col-md-6 mb-3">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dyPHeD5qiB8" allowfullscreen></iframe>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z2-lOzrJbmU?si=1JbLV0yBgdo8uJjp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
   </div>
