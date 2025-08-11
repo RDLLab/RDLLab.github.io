@@ -43,13 +43,13 @@ announcements:
         <p>
           Robust Decision-making and Learning (RDL) Lab<br>
           Australian National University<br>
-          108 North Road (CSIT Building) Room N325<br>
+          108 North Road, Skaidrite Building (fka. CSIT Building) Room N323<br>
           Acton, 2601<br>
           Canberra, ACT, Australia
         </p>
         <div class="d-flex align-items-center mb-2">
           <i class="ti ti-mail mr-3" style="font-size: 30px;"></i>
-          <span>email: rdllab@anu.edu.au</span>
+          <span>email: robotics.comp.cecc@anu.edu.au</span>
         </div>
         <div class="d-flex align-items-center">
           <i class="ti ti-phone mr-3" style="font-size: 30px;"></i>
