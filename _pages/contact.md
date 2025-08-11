@@ -43,7 +43,7 @@ announcements:
         <p>
           Robust Decision-making and Learning (RDL) Lab<br>
           Australian National University<br>
-          108 North Road (CSIT Building) Room N325<br>
+          108 North Road, Skaidrite Building (fka. CSIT Building) Room N325<br>
           Acton, 2601<br>
           Canberra, ACT, Australia
         </p>
