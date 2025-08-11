@@ -4,7 +4,7 @@ title: POMDP Planning for Problems with Complex Dynamics
 description:
 img: assets/img/project_img/complex_dynamics/thumb-pomdp-complex-dynamics.png
 importance: 1
-category: active
+category: past project
 do_not_show_post_desc: true
 ---
 

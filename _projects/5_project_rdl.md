@@ -4,7 +4,7 @@ title: Incorporating Defender's Behaviour in Autonomous Pen-Testing
 description:
 img: assets/img/project_img/pen_testing/thumb-pen-testing.png
 importance: 5
-category: active
+category: past project
 do_not_show_post_desc: true
 ---
 

@@ -4,7 +4,7 @@ title: Partially Observed Inventory Control
 description:
 img: assets/img/project_img/inventory_control/thumb-inventory-control.png
 importance: 4
-category: active
+category: past project
 do_not_show_post_desc: true
 ---
 

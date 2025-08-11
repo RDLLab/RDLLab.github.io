@@ -4,7 +4,7 @@ title: POMDP Planning for Problems with Large Discrete Action Space
 description:
 img: assets/img/project_img/large_discrete_action_space/thumb-pomdp-large-discrete-action-spaces.png
 importance: 2
-category: active
+category: past project
 do_not_show_post_desc: true
 ---
 

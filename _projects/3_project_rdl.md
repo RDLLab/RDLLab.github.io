@@ -4,7 +4,7 @@ title: On-line POMDP Planning Toolkit (OPPT)
 description:
 img: assets/img/project_img/oppt/thumb-oppt.png
 importance: 3
-category: active
+category: past project
 do_not_show_post_desc: true
 ---
 
