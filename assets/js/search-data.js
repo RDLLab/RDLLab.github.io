@@ -45,7 +45,7 @@ ninja.data = [{
             window.location.href = "/news/";
           },
         },{id: "nav-contact",
-          title: "contact",
+          title: "Contact",
           description: "",
           section: "Navigation",
           handler: () => {
