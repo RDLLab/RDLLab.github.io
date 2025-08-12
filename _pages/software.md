@@ -5,6 +5,8 @@ title: Software
 description: 'Checkout some of the Open Source Software we have released'
 nav: true
 nav_order: 2
+do_not_show_post_title: true
+do_not_show_post_desc: true
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
