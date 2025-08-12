@@ -21,7 +21,7 @@ profiles:
     personal_web: https://users.cecs.anu.edu.au/~hannakur/
     email: Hanna.Kurniawati@anu.edu.au
     more_info: >
-      <p>Principal Investigator<br>
+      <p>Professor<br>
       School of Computing<br>
       Australian National University</p>
   - name: Edward Kim
@@ -108,9 +108,9 @@ profiles:
     position: Staff alumni
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Research Fellow (2022--2024)<br>
+      <p>Research Fellow (2021--2024)<br>
       School of Computing, ANU<br>
-      current: Assoc Prof, Shanghai Jiaotong University
+      First job after RDL: Assoc Prof, Shanghai Jiaotong University
       </p>
   - name: Jimy Cai Huang 
     image: people/alumni/empty.jpg
@@ -127,7 +127,7 @@ profiles:
     more_info: >
       <p>Research Engineer (2020--2021)<br>
       School of Computing, ANU<br>
-      current: Software Engineer, Deloitte Australia</p>
+      First job after RDL: Software Engineer, Deloitte Australia</p>
   - name: Jonathan Ferrer
     image: people/alumni/empty.jpg
     position: Staff alumni
@@ -135,7 +135,7 @@ profiles:
     more_info: >
       <p>Postdoctoral Associate (2018)<br>
       School of ITEE, UQ<br>
-      current: Postdoctoral Fellow at CSIRO</p>
+      First job after RDL: Postdoctoral Fellow at CSIRO</p>
   - name: Konstantin Seiler
     image: people/alumni/empty.jpg
     position: Staff alumni
@@ -143,7 +143,7 @@ profiles:
     more_info: >
       <p>Research Fellow (2015)<br>
       School of ITEE, UQ<br>
-      current: Researcher at ACFR</p>
+      First job after RDL: Researcher at ACFR</p>
   
   # HDR ALUMNI
   - name: Jonathon Schwartz
@@ -152,8 +152,8 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>PhD Graduate (2025)<br>
-      School of Computing, ANU
-      current: Software Engineer at [https://imbue.com](Imbue)
+      School of Computing, ANU<br>
+      First job after RDL: Software Engineer at [https://imbue.com](Imbue)
       </p>
   - name: Nicholas Collins
     image: people/active_members/nickC.jpg
@@ -170,7 +170,7 @@ profiles:
     more_info: >
       <p>Phd Graduate (2020)<br>
       School of ITEE, UQ<br>
-      current: Research Fellow at ANU</p>
+      First job after RDL: Research Fellow at ANU</p>
   - name: Joshua Song
     image: people/alumni/empty.jpg
     position: HDR alumni
@@ -178,7 +178,7 @@ profiles:
     more_info: >
       <p>MPhil Graduate (2019)<br>
       location: UQ<br>
-      current: Engineer at Clarivate</p>
+      First job after RDL: Engineer at Clarivate</p>
   - name: Erli Wang
     image: people/alumni/empty.jpg
     position: HDR alumni
@@ -186,7 +186,7 @@ profiles:
     more_info: >
       <p>PhD Graduate (2019)<br>
       School of Mathematics and Physics, UQ<br>
-      current: Researcher at NEC Lab Beijing</p>
+      First job after RDL: Researcher at NEC Lab Beijing</p>
   - name: Haibo Wang
     image: people/alumni/empty.jpg
     position: HDR alumni
@@ -194,7 +194,7 @@ profiles:
     more_info: >
       <p>Phd Graduate (2016)<br>
       School of ITEE, UQ<br>
-      current: Technical lead at a startup company</p>
+      First job after RDL: Technical lead at a startup company</p>
   - name: Georgios Papadopoulous
     image: people/alumni/empty.jpg
     position: HDR alumni
