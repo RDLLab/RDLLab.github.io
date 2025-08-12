@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Jonathon Schwartz is now Dr Jonathon Schwartz! He is now working at [Imbue](https://imbue.com). Congratulations, Johnny!
+Congrats to Jonathon Schwartz for his PhD conferral and new job at [Imbue](https://imbue.com)!
