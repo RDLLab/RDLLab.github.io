@@ -47,7 +47,7 @@ profiles:
   - name: Ivan Ang
     image: people/active_members/ivanA.jpg
     position: Student
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     personal_web: https://comp.anu.edu.au/people/ivan-ang/
     email: Ivan.Ang@anu.edu.au
     more_info: >
@@ -57,7 +57,7 @@ profiles:
   - name: Yohan Karunanayake
     image: people/active_members/yohanK.jpg
     position: Student
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     personal_web: https://comp.anu.edu.au/people/yohan-karunanayake/
     email: Yohan.Karunanayake@anu.edu.au
     more_info: >
@@ -67,7 +67,7 @@ profiles:
   - name: Rhys Newbury
     image: people/active_members/rhysN.jpg
     position: Student
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     personal_web: https://rhys-newbury.github.io/
     email: Rhys.Newbury@anu.edu.au
     more_info: >
@@ -77,7 +77,7 @@ profiles:
   - name: Jingyang You
     image: people/active_members/empty.jpg
     position: Student
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     personal_web: 
     email: Jingyang.You@anu.edu.au
     more_info: >
@@ -87,7 +87,7 @@ profiles:
   - name: Yuanchu (James) Liang
     image: people/active_members/jamesLiang.jpg
     position: Student
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     personal_web: 
     email: Yuanchu.Liang@anu.edu.au
     more_info: >
@@ -97,7 +97,7 @@ profiles:
   - name: Muhammad Rafi Sudrajat
     image: people/active_members/m_rafis.jpg
     position: Student
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     personal_web: 
     email: Muhammad.Sudrajat@anu.edu.au
     more_info: >
