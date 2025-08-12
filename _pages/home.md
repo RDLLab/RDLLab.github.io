@@ -39,3 +39,12 @@ One of our major line of works is the development of highly scalable and adaptab
 The following are examples of our works, more details are available in <a href="https://rdllab.github.io/project/">our project page</a>.
 </p>
 
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-9 mb-3">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z2-lOzrJbmU?si=1JbLV0yBgdo8uJjp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
