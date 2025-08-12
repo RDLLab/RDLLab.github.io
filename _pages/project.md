@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 
+title: Projects
 permalink: /project/
-description: 
+description: Some of our projects
 nav: true
 nav_order: 1
 display_categories: [active,past project]
