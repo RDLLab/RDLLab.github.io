@@ -36,5 +36,8 @@ One of our major line of works is the development of highly scalable and adaptab
 </p>
 
 <p class="text-justify">
-More details about our work are available in our project page.
+The following are examples of our works, more details are available in <a href="https://rdllab.github.io/project/">our project page</a>.
 </p>
+
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z2-lOzrJbmU?si=1JbLV0yBgdo8uJjp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
