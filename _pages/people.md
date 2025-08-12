@@ -144,7 +144,7 @@ profiles:
       current: Researcher at ACFR</p>
   
   # HDR ALUMNI
-   - name: Jonathon Schwartz
+  - name: Jonathon Schwartz
     image: people/active_members/jonathonS.jpg
     position: HDR alumni
     image_circular: true # crops the image to make it circular
