@@ -5,6 +5,8 @@ title: People
 description: Members of the lab
 nav: true
 nav_order: 3
+do_not_show_post_title: true
+do_not_show_post_desc: true
 position_list: [Staff, Student, Staff alumni, HDR alumni] #Make sure this is not empty
 
 profiles:
