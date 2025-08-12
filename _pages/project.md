@@ -2,7 +2,7 @@
 layout: page
 title: project
 permalink: /project/
-description: We focus on the design and development of algorithms to enable robust decision theory becomes practical computational tools for robotics and related domain. Such computational tools will enable robots to design their own strategies, such as deciding what data to use, how to gather the data, and how to adaptively improve its strategies, so as to accomplish various tasks well, despite various modelling errors and types of uncertainty, and despite limited to no information about the system and its operating environment.
+The following are some of our projects
 nav: true
 nav_order: 1
 display_categories: [active,past project]
