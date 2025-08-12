@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /software/
-title: Checkout some of the Open Source Software we have released
-description: 
+title: Software
+description: 'Checkout some of the Open Source Software we have released'
 nav: true
 nav_order: 2
 announcements:
