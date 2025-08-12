@@ -2,7 +2,7 @@
 layout: page
 permalink: /software/
 title: software
-description: 'Checkout our lab's code repository: https://github.com/RDLLab'
+description: 'Checkout some of the Open Source Software we have released'
 nav: true
 nav_order: 2
 announcements:
