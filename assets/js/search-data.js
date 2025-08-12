@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/project/";
           },
-        },{id: "nav-software",
-          title: "software",
-          description: "Checkout our organization repository: https://github.com/RDLLab",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/software/";
-          },
         },{id: "nav-people",
           title: "people",
           description: "Members of the lab",
