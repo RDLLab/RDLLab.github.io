@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/people/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
