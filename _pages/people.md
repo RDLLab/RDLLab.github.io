@@ -18,7 +18,7 @@ profiles:
     image: people/active_members/hannaK.jpg
     position: Staff
     image_circular: true # crops the image to make it circular
-    personal_web: https://users.cecs.anu.edu.au/~hannakur/
+    personal_web: https://comp.anu.edu.au/people/hanna-kurniawati/
     email: Hanna.Kurniawati@anu.edu.au
     more_info: >
       <p>Professor<br>
