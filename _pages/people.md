@@ -106,7 +106,7 @@ profiles:
     position: Staff alumni
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Research Fellow (2022-2024)<br>
+      <p>Research Fellow (2022--2024)<br>
       School of Computing, ANU<br>
       current: Assoc Prof, Shanghai Jiaotong University
       </p>
@@ -115,7 +115,7 @@ profiles:
     position: Staff alumni
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Research Engineer (2019-2021)<br>
+      <p>Research Engineer (2019--2021)<br>
       School of Computing, ANU<br>
       current: Travelling</p>
   - name: Ian Mallett
@@ -123,7 +123,7 @@ profiles:
     position: Staff alumni
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Research Engineer (2020-2021)<br>
+      <p>Research Engineer (2020--2021)<br>
       School of Computing, ANU<br>
       current: Software Engineer, Deloitte Australia</p>
   - name: Jonathan Ferrer
