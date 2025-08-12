@@ -153,7 +153,7 @@ profiles:
     more_info: >
       <p>PhD Graduate (2025)<br>
       School of Computing, ANU<br>
-      First job after RDL: Software Engineer at [https://imbue.com](Imbue)
+      First job after RDL: Software Engineer at <a href="https://imbue.com">Imbue</a>
       </p>
   - name: Nicholas Collins
     image: people/active_members/nickC.jpg
