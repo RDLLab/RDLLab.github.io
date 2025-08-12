@@ -10,7 +10,9 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | capitalize}}</h1>
+    {% if page.do_not_show_post_title != true %}
+      <h1 class="post-title">{{ page.title | capitalize}}</h1>
+    {% endif %}
     {% if page.do_not_show_post_desc != true %}
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
