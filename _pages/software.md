@@ -26,7 +26,6 @@ announcements:
 {% if site.data.repositories.github_users %}
 
 <!--## GitHub users-->
-### Checkout some of the Open Source Software we have released
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -54,7 +53,8 @@ announcements:
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+<!--## GitHub Repositories-->
+### Checkout some of the Open Source Software we have released
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
