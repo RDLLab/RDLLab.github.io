@@ -2,7 +2,7 @@
 layout: page
 title: project
 permalink: /project/
-The following are some of our projects
+description: The following are some of our projects
 nav: true
 nav_order: 1
 display_categories: [active,past project]
