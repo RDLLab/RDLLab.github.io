@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Adaptive Discretization using Voronoi Trees for Continuous POMDPs
+title: ADVT: Approximate Solving for Continuous POMDPs
 description:
 img: assets/img/project_img/continuous_pomdps/partition_tree.png
 importance: 9
