@@ -1,6 +1,6 @@
 ---
 layout: page
-title: An Approximate Solver for Continuous POMDPs
+title: ADVT - an Approximate Solver for Continuous POMDPs
 description:
 img: assets/img/project_img/continuous_pomdps/partition_tree.png
 importance: 9
