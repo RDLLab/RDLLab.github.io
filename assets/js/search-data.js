@@ -121,7 +121,7 @@ ninja.data = [{
           section: "News",},{id: "news-stay-tuned-we-are-heavily-updating-this-website-a-large-part-of-this-website-has-not-been-updated-since-2020",
           title: 'Stay tuned, we are heavily updating this website (a large part of this...',
           description: "",
-          section: "News",},{id: "news-while-we-are-migrating-our-website-we-have-a-few-good-news-to-share-edward-kim-paper-on-approximate-pomdp-solving-without-numerical-optimisation-has-been-accepted-to-ijcai-jingyang-you-paper-on-primitives-for-inspection-planning-using-implicit-models-has-been-accepted-to-iros-jonathon-schwartz-and-rhys-newburry-monash-paper-on-posggym-a-software-to-ease-integration-of-planning-and-learning-in-multi-agent-systems-has-been-accepted-to-jaamas-congratulations-edward-jingyang-jonathon-and-rhys",
+          section: "News",},{id: "news-while-we-are-migrating-our-website-we-have-a-few-good-news-to-share-edward-kim-paper-on-approximate-pomdp-solving-without-numerical-optimisation-has-been-accepted-to-ijcai-paper-jingyang-you-paper-on-primitives-for-inspection-planning-using-implicit-models-has-been-accepted-to-iros-paper-jonathon-schwartz-and-rhys-newburry-monash-paper-on-posggym-a-software-to-ease-integration-of-planning-and-learning-in-multi-agent-systems-has-been-accepted-to-jaamas-paper-congratulations-edward-jingyang-jonathon-and-rhys",
           title: 'While we are migrating our website, we have a few good news to...',
           description: "",
           section: "News",},{id: "news-congrats-to-jonathon-schwartz-for-his-phd-conferral-and-new-job-at-imbue",
