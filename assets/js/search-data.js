@@ -130,8 +130,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-webiste-has-been-updated-and-migrated-to-this-site",
           title: 'Our webiste has been updated and migrated to this site.',
           description: "",
-          section: "News",},{id: "projects-a-pomdp-approach-for-safety-assessment-of-autonomous-cars",
-          title: 'A POMDP Approach for Safety Assessment of Autonomous Cars',
+          section: "News",},{id: "projects-safety-assurance-of-autonomous-cars",
+          title: 'Safety Assurance of Autonomous Cars',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project_rdl/";
