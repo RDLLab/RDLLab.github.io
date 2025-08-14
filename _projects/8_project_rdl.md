@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inspection Planning Primitives with Implicit Models 
+title: Primitives for Inspection Planning with Implicit Models 
 description:
 img: assets/img/project_img/ipim/3h.png
 importance: 8
