@@ -200,8 +200,8 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-approximate-pomdp-solving-without-numerical-optimisation-neurips-ijcai",
-          title: 'Approximate POMDP Solving without Numerical Optimisation (NeurIPS + IJCAI)',
+            },},{id: "projects-approximate-pomdp-solving-without-numerical-optimisation",
+          title: 'Approximate POMDP Solving without Numerical Optimisation',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project_rdl/";
