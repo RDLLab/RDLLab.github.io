@@ -210,8 +210,8 @@ ninja.data = [{
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-inspection-planning-primitives-with-implicit-models",
-          title: 'Inspection Planning Primitives with Implicit Models',
+            },},{id: "projects-primitives-for-inspection-planning-with-implicit-models",
+          title: 'Primitives for Inspection Planning with Implicit Models',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project_rdl/";
