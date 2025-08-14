@@ -31,8 +31,9 @@ We propose two main contributions to this end.
 
 <ul>
     <li>Reference-Based POMDPs <a target="_blank" href="/assets/pdf/papers/neurips23.pdf" >here</a></li>
-    <li>Partialy Observable Reference Policy Programming 
+    <li>Partialy Observable Reference Policy Programming</li> 
 </ul>
+<br>
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/analytical/deep.png" title="deep sampling" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
