@@ -220,8 +220,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-an-approximate-solver-for-continuous-pomdps",
-          title: 'An Approximate Solver for Continuous POMDPs',
+            },},{id: "projects-",
+          title: '',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project_rdl/";
