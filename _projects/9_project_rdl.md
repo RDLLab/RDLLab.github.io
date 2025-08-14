@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ADVT - an Approximate Solver for Continuous POMDPs
+title: Adaptive Disretization using Voronoi Tree for Continuous POMDPs
 description:
 img: assets/img/project_img/continuous_pomdps/partition_tree.png
 importance: 9
