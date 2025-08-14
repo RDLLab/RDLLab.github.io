@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Approximate POMDP Solving without Numerical Optimisation (NeurIPS + IJCAI)
+title: Approximate POMDP Solving without Numerical Optimisation 
 description:
 img: assets/img/project_img/analytical/deep.png
 importance: 7
