@@ -220,8 +220,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-advt-an-approximate-solver-for-continuous-pomdps",
-          title: 'ADVT - an Approximate Solver for Continuous POMDPs',
+            },},{id: "projects-adaptive-disretization-using-voronoi-tree-for-continuous-pomdps",
+          title: 'Adaptive Disretization using Voronoi Tree for Continuous POMDPs',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project_rdl/";
