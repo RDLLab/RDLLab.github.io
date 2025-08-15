@@ -67,12 +67,12 @@ The first experiment here is to verify CAT as a suitable method for adversarial 
 
 <h3>Quantitative Results</h3>
 
-{% include figure.liquid loading="eager" path="assets/project_img/safety/table1.jpg" title="example image" class="img-fluid rounded z-depth-0" %}
+{% include figure.liquid loading="eager" path="assets/img/project_img/safety/table1.jpg" title="example image" class="img-fluid rounded z-depth-0" %}
 
 
 <h3>Qualitative Results</h3>
 
-{% include figure.liquid loading="eager" path="assets/project_img/safety/comp.jpg" title="example image" class="img-fluid rounded z-depth-0" %}
+{% include figure.liquid loading="eager" path="assets/img/project_img/safety/comp.jpg" title="example image" class="img-fluid rounded z-depth-0" %}
 
 We observe that in some scenarios, STRIVE generates invalid collision trajectories by moving out of road boundaries, likely due to inaccuracies in its trained traffic model. The POMDP methods, CAT and ABT, are able to avoid this by encoding environmental collisions within the POMDP formulation, and can generate valid collision trajectories in these scenes.
 
