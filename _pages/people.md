@@ -101,6 +101,15 @@ profiles:
     more_info: >
       <p>PhD candidate<br>
       School of Computing, ANU</p>
+  - name: Rishikesh Joshi
+    image: people/active_members/rishiJoshi.jpg
+    position: Student
+    image_circular: true # crops the image to make it circular
+    personal_web: 
+    email: Rishikesh.Joshi@anu.edu.au
+    more_info: >
+      <p>PhD candidate<br>
+      School of Computing, ANU</p>
   
   # Staff Alumni
   - name: Yongbo Chen
