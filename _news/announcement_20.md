@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to Marcus Hoerger and Muhammad Rafi Sudrajat, their paper has been accepted to ICRA26. Paper here.
+Congratulations to Marcus Hoerger and Muhammad Rafi Sudrajat, their paper has been accepted to ICRA26. [Paper](https://rdllab.github.io/assets/pdf/papers/icra26_vopp.pdf).
