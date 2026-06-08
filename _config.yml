@@ -2,22 +2,22 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Robust Decision Making Lab # the website title (if blank, full name will be used instead)
+title: Robust Decision-making & Learning Lab # the website title (if blank, full name will be used instead)
 logo: rdl_logo.png #Path to logo from assets/img
-first_name: Robust Decision Making
+first_name: Robust Decision-making & Learning
 middle_name:
 last_name: Lab
 contact_note: >
   Contact us via our lab email or find our individual contact in <a href="/people/">people page</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  The Robust Decision Making (RDL) Lab at the School of Computing, Australian National University (ANU),
+  The Robust Decision-making & Learning (RDL) Lab at the School of Computing, Australian National University (ANU),
   led by Prof. Hanna Kurniawati, develops scalable methods for sequential decision-making under uncertainty
   (POMDPs), motion and inspection planning, reinforcement learning, integrated planning and learning, and
   safe autonomy for robots.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: RDL Lab, Robust Decision Making Lab, Hanna Kurniawati, ANU, robotics, POMDP, sequential decision-making under uncertainty, motion planning, inspection planning, reinforcement learning, safe autonomy
+keywords: RDL Lab, Robust Decision-making & Learning Lab, Hanna Kurniawati, ANU, robotics, POMDP, sequential decision-making under uncertainty, motion planning, inspection planning, reinforcement learning, safe autonomy
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: rdl_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
