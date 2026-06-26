@@ -141,6 +141,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project_rdl/";
+            },},{id: "projects-vectorized-online-pomdp-planning-vopp",
+          title: 'Vectorized Online POMDP Planning (VOPP)',
+          description: "VOPP: a fully GPU-parallelized online POMDP solver that is at least 20× faster than the state-of-the-art parallel solver, using pure tensor operations with no synchronization overhead.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project_rdl/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
