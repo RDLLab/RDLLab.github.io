@@ -33,7 +33,7 @@ We are a research lab at the <a href="https://comp.anu.edu.au/research/groups/ro
 </p>
 
 <p class="text-justify">
-One of our major line of works is the development of highly scalable and adaptable approximate solvers for mathematically principled sequential decision-making under uncertainty frameworks, such as Partially Observable Markov Decision Processes (POMDPs). Such solvers will enable robots to design their own strategies, such as deciding what data to use, how to gather the data, and how to adaptively improve its strategies, so as to accomplish various tasks well, despite various modelling errors and types of uncertainty, and despite limited to no information about the system and its operating environment. We now have parallel POMDP solvers that can run entirely in GPU or entirely in CPU. Some of our POMDP works no longer require POMDP models!
+One of our major line of works is the development of highly scalable and adaptable approximate solvers for mathematically principled sequential decision-making under uncertainty frameworks, such as Partially Observable Markov Decision Processes (POMDPs). Such solvers will enable robots to design their own strategies, such as deciding what data to use, how to gather the data, and how to adaptively improve its strategies, so as to accomplish various tasks well, despite various modelling errors and types of uncertainty, and despite limited to no information about the system and its operating environment. 
 </p>
 
 <p class="text-justify">
