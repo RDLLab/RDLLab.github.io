@@ -136,7 +136,7 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-yuanchu-james-liang-and-edward-kim-their-collaborative-paper-with-j-arden-knoll-will-thomason-zachary-kingston-and-lydia-kavraki-have-been-accepted-to-ijrr-paper",
           title: 'Congratulations to Yuanchu (James) Liang and Edward Kim. Their collaborative paper with J....',
           description: "",
-          section: "News",},{id: "news-congratulations-to-daniel-guirguis-usyd-his-paper-in-collaboration-with-nathan-wallace-and-salah-sukkarieh-have-been-accepted-to-iros-paper",
+          section: "News",},{id: "news-congratulations-to-daniel-guirguis-usyd-his-paper-in-collaboration-with-nathan-wallace-and-salah-sukkarieh-has-been-accepted-to-iros-paper",
           title: 'Congratulations to Daniel Guirguis (USyd), his paper in collaboration with Nathan Wallace and...',
           description: "",
           section: "News",},{id: "news-congratulations-to-marcus-hoerger-and-rishikesh-joshi-their-paper-has-been-accepted-to-isrr-paper",
