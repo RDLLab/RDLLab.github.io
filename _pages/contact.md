@@ -42,10 +42,11 @@ announcements:
       <div>
         <p>
           Robust Decision-making and Learning (RDL) Lab<br>
+          Robotics@ANUComputing Group<br>
+          School of Computing<br>
           Australian National University<br>
           108 North Road, Skaidrite Building (fka. CSIT Building) Room N323<br>
-          Acton, 2601<br>
-          Canberra, ACT, Australia
+          Acton, 2601, Canberra, ACT, Australia
         </p>
         <div class="d-flex align-items-center mb-2">
           <i class="ti ti-mail mr-3" style="font-size: 30px;"></i>
