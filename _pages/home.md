@@ -29,7 +29,7 @@ latest_posts:
 ---
 
 <p class="text-justify">
-Our lab is part of the <a href="https://comp.anu.edu.au/research/groups/robotics/">Robotics@ANUComputing group</a>. We focus on computational representations and methods that will enable robots to operate fluently in our environments --operating reliably, resiliently, efficiently, and safely in various scenarios, adapting to changes and new understanding about its surrounding. To this end, we have extensive works in sequential decision-making (planning) under uncertainty and its applications, motion planning, inspection planning, computational geometry, reinforcement learning, integrated planning and learning, and safety assessment of autonomous systems. 
+We are a research lab at the <a href="https://comp.anu.edu.au/research/groups/robotics/">Robotics@ANUComputing group</a>, focusing on computational representations and methods that will enable robots to operate fluently in our environments --operating reliably, resiliently, efficiently, and safely in various scenarios, adapting to changes and new understanding about its surrounding. To this end, we have extensive works in sequential decision-making (planning) under uncertainty and its applications, motion planning, inspection planning, computational geometry, reinforcement learning, integrated planning and learning, and safety assessment of autonomous systems. 
 </p>
 
 <p class="text-justify">
