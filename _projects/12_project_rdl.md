@@ -31,7 +31,7 @@ do_not_show_post_desc: true
 </div>
 
 <p class="text-justify">
-<strong>VOiLA (Vectorized Online planning wIth Learned diffusion model for POMDP Agents)</strong> is a framework for online planning under uncertainty that combines <strong>learned, task-agnostic POMDP world models</strong> with the massively parallel <a href="/projects/vopp">Vectorized Online POMDP Planner (VOPP)</a>. It enables robots to plan in belief space without requiring manually specified transition and observation models.
+<strong>VOiLA (Vectorized Online planning wIth Learned diffusion model for POMDP Agents)</strong> is a framework for online planning under uncertainty that combines <strong>learned, task-agnostic POMDP world models</strong> with the massively parallel <a href="/projects/11_project_rdl">Vectorized Online POMDP Planner (VOPP)</a>. It enables robots to plan in belief space without requiring manually specified transition and observation models.
 </p>
 
 <p class="text-justify">
@@ -55,10 +55,10 @@ Partially Observable Markov Decision Processes (POMDPs) provide a principled fra
 Across three evaluation problems, VOiLA achieves competitive or better results than leading RL-based POMDP methods while using substantially less training data. In a physical robot experiment, models trained <strong>entirely in simulation</strong> enabled a Unitree Go2 quadruped to complete its target-finding task in <strong>10 out of 10 trials</strong>, without additional real-world model training.
 </p>
 
-<h2>Key Idea: Learn the World Model, Plan Online</h2>
+<h2>Key Idea: Learn the World Model Offline, Plan Online</h2>
 
 <p class="text-justify">
-Instead of learning a task-specific policy, VOiLA learns the components of a POMDP model from trajectories collected by a <strong>task-independent uniform policy</strong> in simulation. The learned models can subsequently be used for different objectives that share the same underlying dynamics and observation process. VOiLA learns three components:
+Instead of learning a task-specific policy, VOiLA learns the components of a POMDP model from trajectories collected by a <strong>task-independent uniform policy</strong> in simulation. The learned models can subsequently be used for different objectives that share the same underlying transition and observation models. VOiLA learns three components that support both online planning and particle-based belief updates:
 </p>
 
 <ul>
@@ -70,7 +70,7 @@ Instead of learning a task-specific policy, VOiLA learns the components of a POM
 <h2>Efficient Generative Models through Diffusion Distillation</h2>
 
 <p class="text-justify">
-Complex robot dynamics and observation distributions can be multimodal, making them difficult to represent with simple parametric models. VOiLA first trains <strong>conditional diffusion models</strong> to capture these distributions. However, generating samples through iterative diffusion inference is too expensive for online POMDP planning, which may require thousands of forward simulations per planning step.
+Complex robot dynamics and observation distributions can be high-dimensional and multimodal, making them difficult to represent with simple parametric models. VOiLA first trains <strong>conditional diffusion models</strong> to capture these distributions. However, generating samples through iterative diffusion inference is too expensive for online POMDP planning, which may require thousands of forward simulations per planning step.
 </p>
 
 <p class="text-justify">
@@ -80,11 +80,11 @@ To overcome this bottleneck, VOiLA <strong>distills diffusion samplers into comp
 <h2>Online Belief-Space Planning with VOPP</h2>
 
 <p class="text-justify">
-The learned models are integrated into <strong>VOPP</strong>, a fully vectorized online POMDP planner. During planning, VOPP uses the learned transition and observation samplers to simulate candidate action sequences in parallel, expanding a belief tree and updating action preferences using batched tensor operations. VOiLA also extends VOPP with <strong>vectorized progressive widening</strong> to support continuous observation spaces.
+The learned models are integrated into <a href="/projects/11_project_rdl">VOPP</a>, a fully vectorized online POMDP planner. During planning, VOPP uses the learned transition and observation samplers to simulate candidate action sequences in parallel, expanding a belief tree and updating action preferences using batched tensor operations. VOiLA also extends VOPP with <strong>vectorized progressive widening</strong> to support continuous observation spaces.
 </p>
 
 <p class="text-justify">
-After executing the selected action, VOiLA incorporates the new observation through a <strong>Sequential Importance Resampling (SIR) particle filter</strong>. The learned transition sampler generates proposal particles, and the learned likelihood model determines their relative weights. Planning then resumes from the updated belief. This repeated <em>plan &rarr; act &rarr; observe &rarr; update belief</em> cycle allows VOiLA to adapt online to uncertainty and changing environment configurations.
+After executing the selected action, VOiLA incorporates the new observation through a <strong>Sequential Importance Resampling (SIR) particle filter</strong>. The learned transition sampler generates proposal particles, and the learned likelihood model determines their relative weights. Planning then resumes from the updated belief.
 </p>
 
 <h2>Benchmark Problems</h2>
@@ -259,7 +259,9 @@ VOiLA successfully located and reached the target in
       class="w-100 rounded z-depth-1"
       controls
       playsinline
-      preload="metadata"
+      preload="auto"
+      width="1920"
+      height="1080"
       style="max-width: 100%; height: auto;">
       <source src="{{ '/assets/video/record_cut_small_2.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support HTML5 video.
