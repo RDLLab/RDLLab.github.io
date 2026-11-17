@@ -142,7 +142,7 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-marcus-hoerger-and-rishikesh-joshi-their-paper-has-been-accepted-to-isrr-paper",
           title: 'Congratulations to Marcus Hoerger and Rishikesh Joshi, their paper has been accepted to...',
           description: "",
-          section: "News",},{id: "news-congratulations-to-yuanchu-james-liang-their-paper-efficient-diffusion-policy-fine-tuning-with-latent-noise-representation-bridging-has-been-accepted-to-neurips-2026-this-work-was-done-in-collaboration-with-yue-yang-and-an-chi-he-during-yuanchu-s-ai-residency-internship-at-maincode-paper",
+          section: "News",},{id: "news-congratulations-to-yuanchu-james-liang-their-paper-efficient-diffusion-policy-fine-tuning-with-latent-noise-representation-bridging-has-been-accepted-to-neurips-26-this-work-was-done-in-collaboration-with-yue-yang-and-an-chi-he-during-yuanchu-s-ai-residency-internship-at-maincode-paper-jingyang-you-his-paper-meta-rl-with-bayesian-linear-task-models-has-been-accepted-to-neurips-26-paper",
           title: 'Congratulations to Yuanchu (James) Liang, their paper “Efficient Diffusion Policy Fine Tuning with...',
           description: "",
           section: "News",},{id: "projects-safety-assurance-of-autonomous-cars",
