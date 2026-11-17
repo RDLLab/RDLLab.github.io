@@ -142,6 +142,9 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-marcus-hoerger-and-rishikesh-joshi-their-paper-has-been-accepted-to-isrr-paper",
           title: 'Congratulations to Marcus Hoerger and Rishikesh Joshi, their paper has been accepted to...',
           description: "",
+          section: "News",},{id: "news-congratulations-to-yuanchu-james-liang-their-paper-efficient-diffusion-policy-fine-tuning-with-latent-noise-representation-bridging-has-been-accepted-to-neurips-2026-this-work-was-done-in-collaboration-with-yue-yang-and-an-chi-he-during-yuanchu-s-ai-residency-internship-at-maincode-paper",
+          title: 'Congratulations to Yuanchu (James) Liang, their paper “Efficient Diffusion Policy Fine Tuning with...',
+          description: "",
           section: "News",},{id: "projects-safety-assurance-of-autonomous-cars",
           title: 'Safety Assurance of Autonomous Cars',
           description: "",
@@ -152,6 +155,16 @@ ninja.data = [{
           description: "VOPP: a fully vectorized online POMDP solver that is at least 20× faster than the state-of-the-art parallel solver, using pure tensor operations with no synchronization overhead.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project_rdl/";
+            },},{id: "projects-meta-rl-with-bayesian-linear-task-models-glibrl",
+          title: 'Meta-RL with Bayesian Linear Task Models (GLiBRL)',
+          description: "GLiBRL: a deep Bayesian RL framework with exact, closed-form task inference over generalised linear transition and reward models, achieving the highest aggregate zero-shot performance on MuJoCo and MetaWorld ML10/45.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project_rdl/";
+            },},{id: "projects-efficient-diffusion-policy-fine-tuning-with-latent-noise-representation-bridging-larbrid",
+          title: 'Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging (LARBRID)',
+          description: "LARBRID: fine-tunes the initial noise of frozen diffusion and flow policies through a shared linear-MDP representation that removes noise aliasing, with near-optimal fine-tuning guarantees and up to 2-3× performance gains on robotic control tasks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project_rdl/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
