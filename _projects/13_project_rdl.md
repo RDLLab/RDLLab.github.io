@@ -105,6 +105,7 @@ Rollouts on OGBench tasks before and after fine-tuning. Each row is one task: th
 {% assign larbrid_tasks = "antsoccer:Ant Soccer,cube:Cube,scene:Scene,puzzle:Puzzle" | split: "," %}
 {% for task in larbrid_tasks %}
 {% assign parts = task | split: ":" %}
+
 <div class="row justify-content-center mb-3">
   <div class="col-12 text-center"><strong>{{ parts[1] }}</strong></div>
   <div class="col-6">
