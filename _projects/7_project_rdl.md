@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Approximate POMDP Solving without Numerical Optimisation 
+title: Approximate POMDP Solving without Numerical Optimisation
 description:
 img: assets/img/project_img/analytical/deep.png
 importance: 7
@@ -36,6 +36,7 @@ We propose two main contributions to this end.
 <br>
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/analytical/deep.png" title="deep sampling" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
     Current state-of-the-art online planners are "exhaustive" in the sense that they branch over actions at each node before proceeding deeper down the tree, so meaningful long horizon futures are seldom explored.
     In contrast, reference-based approaches sample using information encoded by the reference policy and can sample deeper and sparser while gradually improving the policy.
@@ -43,7 +44,7 @@ We propose two main contributions to this end.
 
 <h2>
 Reference-Based POMDPs
-</h2> 
+</h2>
 
 <p class="text-justify">
 The notion of a Reference-Based POMDP (RBPOMDP) is a reformulation of a POMDP whose objective is penalised by the KL-divergence between a chosen and nominal reference policy.
@@ -52,8 +53,8 @@ This property accommodates solvers that have been shown to perform effectively o
 The full paper is available <a target="_blank" href="/assets/pdf/papers/neurips23.pdf" >here</a></li>.
 </p>
 
-
 {% include figure.liquid loading="eager" path="assets/img/project_img/analytical/nav3d.png" title="policy trace" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
     The executed policy trace of a reference-based approximate planner (in blue) whose reference policy naively takes actions which minimise the Euclidean distance. The deformation achieved by the new policy is clearly seen.
 </div>
@@ -61,7 +62,6 @@ The full paper is available <a target="_blank" href="/assets/pdf/papers/neurips2
 <h2>
 Partially Observable Reference Policy Programming
 </h2>
-
 
 <p class="text-justify">
 While approximate RBPOMDP solvers have been shown to perform well with well-chosen reference policies, the formulation comes at the cost that the solution has a baked-in commitment to the reference policy.
@@ -77,9 +77,10 @@ The full paper is available <a target="_blank" href="/assets/pdf/papers/ijcai25.
 for POMDP evaluation" class="img-fluid rounded z-depth-1" %}
 {% include figure.liquid loading="eager" path="assets/img/project_img/analytical/deform2.png" title="example scenario
 for POMDP evaluation" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
 Executed trace of a helicopter during a search and rescue mission in the Corsica region. The pilot needs to avoid a danger zone which appears without warning during the middle of the run. PORPP can adapt quickly to the change, executing a well-crafted policy.
-</div> 
+</div>
 
 <h2> References </h2>
 

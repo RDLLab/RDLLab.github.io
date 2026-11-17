@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Primitives for Inspection Planning with Implicit Models 
+title: Primitives for Inspection Planning with Implicit Models
 description:
 img: assets/img/project_img/ipim/3h.png
 importance: 8
@@ -20,30 +20,26 @@ The aging and increasing complexity of infrastructures makes efficient inspectio
     Illustration of how <strong>IPIM</strong> is used with an inspection planner to reduce the memory cost. Before planning, the explicit environment $\mathcal{E}$ is converted to neural SDF $f_\mathcal{E}$ comprising a feature extractor (FE) and a Multi-Layer Perceptron (MLP). During planning, <strong>IPIM</strong> converts the four primitive computations of inspection planning with SDF to the implicit counterparts.
 </div>
 
-
 <p class="text-justify">
 The high memory requirements with inspection planning can be reduced using implicit representation of the environments and observation. <strong>IPIM</strong> proposes efficient primitives when implicit neural-network based SDF representation is used to represent the environment and observation. Neural SDF is recognized for its rapid training and compactness, making it well-suited for planning tasks that demand memory efficiency.<br>
 
 With <strong>IPIM</strong>, the known explicit environment model $\mathcal{E}$ is first converted into an implicit SDF model $f_{\mathcal{E}}$ represented by a neural network. Without the loss of generality, we suppose <strong>IPIM</strong> is used with a sampling-based inspection planner that builds a tree $\mathbb{T} = \{ \mathbb{N}, \mathbb{E}\}$, where $\mathbb{N}$ and $\mathbb{E}$ are the set of nodes and edges in the tree. Under <strong>IPIM</strong>, each node $\mathbf{n} \in \mathbb{N}$ represents a 4-tuple $\left\langle \mathbf{q}, \mathbf{B_{P_n}},  f_\mathbf{P_n}, \textbf{cov($\mathbf{n}$)}\right\rangle$. The four elements in the tuple reflect how <strong>IPIM</strong> converts the four primitives of the planner to their implicit forms, namely: <br>
 <br>
 
-
 <strong>Collision Check:</strong> $\mathbf{q} \in C_{free}$ refers to a sampled robot's configuration at node $\mathbf{n}$. Denote its parent node as $\mathbf{n}' \in \mathbb{N}$. The collision check against trajectory $\overline{\mathbf{n}'\mathbf{n}}$ is done with the implicit model $f_{\mathcal{E}}$. <br>
-   
-<strong>Observation Simulation:</strong> The observation $\mathbf{P_n}$ (e.g., a depth image), is simulated using the SDF function $f_{\mathcal{E}}$. \textit{For brevity, in the following sections, when we say the bounding box of $\mathbf{P_n}$, we mean the bounding box of the point cloud corresponding to the observation} $\mathbf{P_n}$. <br> 
+
+<strong>Observation Simulation:</strong> The observation $\mathbf{P_n}$ (e.g., a depth image), is simulated using the SDF function $f_{\mathcal{E}}$. \textit{For brevity, in the following sections, when we say the bounding box of $\mathbf{P_n}$, we mean the bounding box of the point cloud corresponding to the observation} $\mathbf{P_n}$. <br>
 
 <strong>IPIM</strong> maintains the bounding box of $\mathbf{P_n}$, denoted as $\mathbf{B_{P_n}}$. <br>
-  
+
 <strong>Observation Representation:</strong> The local SDF $f_\mathbf{P_n}$ encodes $\mathbf{P_n}$ with a tiny-sized multi-layer perceptron. The set of local surface points, denoted as $S_\mathbf{P_n}$, can then be <strong>generated</strong> from $\mathbf{B_{P_n}}$ and $f_\mathbf{P_n}$ with marching cube. <br>
-  
+
 <strong>Total Coverage Check:</strong> <strong>cov</strong>($\mathbf{n}$) refers to the accumulated coverage in the path from the root of $\mathbb{T}$ until the node $\mathbf{n}$ of $\mathbb{T}$. This coverage is calculated incrementally and implicitly as $\mathbb{T}$ being expanded. <br>
+
 </p>
 
-
-
 <div class="text-justify">
-We apply <strong>IPIM</strong> on a simple RITA-like [1] inspection planner, and benchmark its performace against the state-of-the-art inspection planner IRIS [2] across three scenarios with increasing complexity. We show that <strong>IPIM</strong> achieves superior memory efficiency in complex and cluttered real-world scenarios. 
-
+We apply <strong>IPIM</strong> on a simple RITA-like [1] inspection planner, and benchmark its performace against the state-of-the-art inspection planner IRIS [2] across three scenarios with increasing complexity. We show that <strong>IPIM</strong> achieves superior memory efficiency in complex and cluttered real-world scenarios.
 
 The scenarios are briefly introduced below. <br>
 
@@ -77,25 +73,19 @@ Experiment scenarios. From left to right: <strong>Bridge</strong>, <strong>Plant
 
 <strong>Bridge</strong> with 7.4K mesh vertices and 9.4K mesh faces, taken from [2]. We have reduced the scale of this environment by a factor of ten, so it has size 6m $\times$ 2m $\times$ 4m. <br>
 
-
 <strong>Plant</strong> refers to a glycol distillation plant at the San Jacinto College. The mesh model of the plant is obtained by processing raw scans collected from a Leica RTC360 Laser Scanner and a BLK ARC Lidar scanner. This scenario consists of 52.5M vertices and 92.0M faces, and is sized 44m $\times$ 19m $\times$ 15m. <br>
-
 
 <strong>Plant-s</strong> is a subset of the <strong>Plant</strong> scenario with size 15m $\times$ 10m $\times$ 10m, consisting of 10.4M vertices and 20.9M faces. <br>
 
-
 The results are shown below: <br>
-
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/ipim/results.png" title="experiment pictures" class="img-fluid rounded z-depth-1" %}
 
+We investigate on the performace of <strong>IRIS-M</strong> (more efficient version of the state-of-the-art IRIS), <strong>TP</strong> (a RITA-like [1] simple inspection planner) and <strong>TP-IPIM</strong> (<strong>TP</strong> where all primitives are replaced by <strong>IPIM</strong>). From the results, we can tell <strong>IPIM</strong> save considerable memory. In the most complex scenario, <strong>IPIM</strong> enables <strong>TP</strong> to save up to $70 \times$ baseline memory (which is required regardless of what inspection algorithm is used). <br>
 
-We investigate on the performace of <strong>IRIS-M</strong>  (more efficient version of the state-of-the-art IRIS), <strong>TP</strong> (a RITA-like [1] simple inspection planner) and <strong>TP-IPIM</strong> (<strong>TP</strong> where all primitives are replaced by <strong>IPIM</strong>). From the results, we can tell <strong>IPIM</strong> save considerable memory. In the most complex scenario,  <strong>IPIM</strong> enables <strong>TP</strong> to save up to $70 \times$ baseline memory (which is required regardless of what inspection algorithm is used). <br>
 </div> <br>
 
-
 Finally, we demonstrate a sample inspection trajectory planned for three hours in the <strong>Plant-s</strong> scenario. With <strong>IPIM</strong>, even a simple inspection planner can navigate through complex and cluttered to cover more areas. <br>
-
 
 {% include figure.liquid
        loading="eager"
@@ -103,12 +93,10 @@ Finally, we demonstrate a sample inspection trajectory planned for three hours i
        path="assets/img/project_img/ipim/3h.png"
        title="scenario1"
        class="img-fluid rounded z-depth-1"
-       figure_class="text-center" 
+       figure_class="text-center"
 %} <br>
 
 <h2> References </h2>
 <div class="publications">
    {% bibliography --file project_8.bib %}
 </div>
-
-

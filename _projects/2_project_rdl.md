@@ -24,7 +24,6 @@ We then propose an expansion of CEMAB to approximately solve POMDP problems on-l
 
 {% include figure.liquid max-width="30%" loading="eager" path="assets/img/project_img/large_discrete_action_space/HN_11_3_3_show.gif" title="Result" class="img-fluid rounded z-depth-1" figure_class="text-center" %}
 
-
 <div class="caption">
     An example of QBASE applied to multi-agent multi-target finding with centralised control. Left: Performance on different numbers of agents and targets. The notation |S| is the size of the state space, while |A| is the size of the action space. Right: A visualisation of a policy for the case of 3 agents finding 3 targets. The agents are green squares marked with letters. The actual positions of the targets before being captured are marked with dark red. The pink color indicates the agents' belief that a target is at the particular cell, the darker the color the higher the probability.
 </div>

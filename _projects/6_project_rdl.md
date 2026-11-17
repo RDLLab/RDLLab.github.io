@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scaling Long-Horizon Online POMDP Planning with Rapid State Space Sampling 
+title: Scaling Long-Horizon Online POMDP Planning with Rapid State Space Sampling
 description:
 img: assets/img/project_img/ropras/ROPRaS_thumbnail.png
 importance: 6
@@ -17,6 +17,7 @@ solvers, long-horizon pomdps (e.g., $\geq$15 steps) remain difficult to solve. T
 </p>
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/ropras/tree_compare.png" title="tree comparison" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
     A illustrated comparison of the belief tree constructed via exhuastive backup (left) and reference backup (right). The reference based belief tree is sparser and deeper thanks to the removal of exhuastive enumeration during construction.
 </div>
@@ -32,6 +33,7 @@ Notice that this form is an expectation of the future discounted reward under th
 </p>
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/ropras/experiment_pics.png" title="experiment pictures" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
 Benchmark environments with obstacles (grey), landmarks (purple), danger zones (red), starting locations (orange), goals and targets (green). <br>
 </div>
@@ -52,6 +54,7 @@ The methods we compar against include, <br>
 <strong> RMAG </strong>: The improved version of MAGIC that uses special modularised memory neural networks to generate better macro actions. <br>
 
 Across all domains, ROPRaS3 has clear advantages in terms of successfully completing the problem while being efficient in terms of number of steps being executed in each task. In Maze2D, the agent equipped with ROPRaS3 figures out to use nearby lights to localise even though it might take an extra few steps. In Random3D, ROPRas3's performance do not drop much as the reference policy failure rates increases. And in Multi-Drone Tag, ROPRaS3 succesfully spread the drone out to capture the target from all directions, preventing it from escaping, demonstrating long horizon searching and planning capabilities. Details experimental results are given below.
+
 </div>
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/ropras/ropras_tab1.png" title="experiment pictures" class="img-fluid rounded z-depth-1" %}
@@ -63,7 +66,3 @@ Across all domains, ROPRaS3 has clear advantages in terms of successfully comple
 <div class="publications">
    {% bibliography --file project_6.bib %}
 </div>
-
-
-
-

@@ -60,4 +60,3 @@ announcements:
     </div>
   </div>
 </div>
-

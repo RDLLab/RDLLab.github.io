@@ -11,11 +11,11 @@ html[data-theme="light"] {
   --text-color: var(--red-color-dark);
 }
 
-.post-header .post-description{
-    font-size: medium;
-    text-align: justify;
+.post-header .post-description {
+  font-size: medium;
+  text-align: justify;
 }
 
-.projects .category{
-    color: var(--text-color) !important;
+.projects .category {
+  color: var(--text-color) !important;
 }

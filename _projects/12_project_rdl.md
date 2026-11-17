@@ -35,7 +35,6 @@ do_not_show_post_desc: true
   </a>
 </div>
 
-
 <p class="text-justify">
 <strong>GLiBRL</strong> (<strong>G</strong>eneralised <strong>Li</strong>near Models in Deep <strong>B</strong>ayesian <strong>RL</strong> with Learnable Basis Functions) combines learned neural features with Bayesian linear reward and transition models. Closed-form Bayesian updates infer the task from new interactions, and a belief-conditioned policy uses this inference to adapt its behaviour.
 </p>

@@ -5,7 +5,7 @@ permalink: /project/
 description: Some of our projects
 nav: true
 nav_order: 1
-display_categories: [active,past project]
+display_categories: [active, past project]
 horizontal: true
 do_not_show_post_title: true
 do_not_show_post_desc: true
@@ -14,6 +14,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
+
 <link rel="stylesheet" href="{{ '/assets/css/custom_css/research_page.css' | relative_url | bust_css_cache }}">
 
 <!-- News -->

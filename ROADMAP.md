@@ -1,11 +1,11 @@
 # SEO Roadmap — Robust Decision Making Lab (rdllab.github.io)
 
 > **Goal:** Make the lab website discoverable in Google so that searches like
-> *"RDL Lab"*, *"Robust Decision Making Lab"*, and *"RDL Lab ANU"* return
+> _"RDL Lab"_, _"Robust Decision Making Lab"_, and _"RDL Lab ANU"_ return
 > <https://rdllab.github.io/> on the first page.
 
 > **Status (2026-06-08):** ✅ **Phase 0 and Phase 1 applied** in
-> [_config.yml](_config.yml) — except **1.4 (Google Search Console verification)**,
+> [\_config.yml](_config.yml) — except **1.4 (Google Search Console verification)**,
 > which is blocked until you generate a verification token in Search Console
 > (Phase 2.1). Changes take effect after the next push to `main` rebuilds the site.
 
@@ -20,8 +20,8 @@ is **switched off**. Two things matter most:
    GitHub Pages sites quickly. Until the sitemap is submitted and indexing is
    requested, the site may not be indexed at all.
 2. **On-page signals are placeholder text.** The meta description Google would show
-   is literally *"A simple, whitespace theme for academics."* — there is nothing
-   telling Google this is the *Robust Decision Making Lab*.
+   is literally _"A simple, whitespace theme for academics."_ — there is nothing
+   telling Google this is the _Robust Decision Making Lab_.
 
 Everything below is ordered by impact. **Phase 1 + Phase 2 are what actually fix
 "I can't find the site in Google."** The later phases improve ranking and rich
@@ -32,9 +32,10 @@ results once it's indexed.
 ## Phase 0 — Diagnose current state (15 min, do first)
 
 > **Findings (checked 2026-06-08):**
+>
 > - `site:rdllab.github.io` → the homepage **is already indexed**, but Google
->   displays the old placeholder snippet (*"…simple whitespace academic theme based
->   on \*folio"*). Indexed, but with junk metadata → fixed by Phase 1.1.
+>   displays the old placeholder snippet (_"…simple whitespace academic theme based
+>   on \*folio"_). Indexed, but with junk metadata → fixed by Phase 1.1.
 > - `"Robust Decision Making Lab" ANU` → the lab site does **not** rank; ANU /
 >   [ARIAM Hub](https://ariamhub.com/people/hanna-kurniawati/) profile pages for
 >   Prof. Hanna Kurniawati dominate. Needs Phase 2 (request indexing) + Phase 4
@@ -53,52 +54,52 @@ results once it's indexed.
 
 ## Phase 1 — Fix on-page SEO foundations (highest impact, ~1 hr)
 
-All changes are in [_config.yml](_config.yml) unless noted. **A config change
+All changes are in [\_config.yml](_config.yml) unless noted. **A config change
 requires a rebuild/redeploy to take effect** (push to `main`).
 
 ### 1.1 Real site identity
 
-- [x] **Description** ([_config.yml:12-13](_config.yml#L12)) — ✅ **applied.** Now
+- [x] **Description** ([\_config.yml:12-13](_config.yml#L12)) — ✅ **applied.** Now
       describes the RDL Lab, Prof. Hanna Kurniawati, ANU, and the research topics:
-      ```yaml
-      description: >
-        The Robust Decision Making (RDL) Lab at the School of Computing,
-        Australian National University (ANU), develops scalable methods for
-        sequential decision-making under uncertainty, POMDPs, motion and
-        inspection planning, reinforcement learning, and safe autonomy for robots.
-      ```
-- [x] **Keywords** ([_config.yml:17](_config.yml#L17)) — ✅ **applied:**
-      ```yaml
-      keywords: RDL Lab, Robust Decision Making Lab, ANU, robotics, POMDP, sequential decision-making under uncertainty, motion planning, reinforcement learning, safe autonomy
-      ```
-- [x] **Author name** ([_config.yml:7-9](_config.yml#L7)) — ✅ **applied.** Set to the
+      `yaml
+description: >
+  The Robust Decision Making (RDL) Lab at the School of Computing,
+  Australian National University (ANU), develops scalable methods for
+  sequential decision-making under uncertainty, POMDPs, motion and
+  inspection planning, reinforcement learning, and safe autonomy for robots.
+`
+- [x] **Keywords** ([\_config.yml:17](_config.yml#L17)) — ✅ **applied:**
+      `yaml
+keywords: RDL Lab, Robust Decision Making Lab, ANU, robotics, POMDP, sequential decision-making under uncertainty, motion planning, reinforcement learning, safe autonomy
+`
+- [x] **Author name** ([\_config.yml:7-9](_config.yml#L7)) — ✅ **applied.** Set to the
       lab name, split as `first_name: Robust Decision Making` / `last_name: Lab` so
       `<meta name="author">` renders cleanly as "Robust Decision Making Lab".
-- [x] **Scholar author** ([_config.yml:266-267](_config.yml#L266)) — ✅ **applied.**
+- [x] **Scholar author** ([\_config.yml:266-267](_config.yml#L266)) — ✅ **applied.**
       Set to the lab's staff (`last_name: [Kurniawati, Kim, Hoerger]` /
       `first_name: [Hanna, Edward, Marcus]`) so their names are highlighted in the
-      publication list. *Extend these lists to also bold students/HDR authors.*
+      publication list. _Extend these lists to also bold students/HDR authors._
 
 ### 1.2 Canonical URL casing
 
-- [x] **`url`** ([_config.yml:21](_config.yml#L21)) — ✅ **applied.** Changed
+- [x] **`url`** ([\_config.yml:21](_config.yml#L21)) — ✅ **applied.** Changed
       `https://RDLLab.github.io` → lowercase `https://rdllab.github.io` so `<link rel="canonical">`
-      ([_includes/head.liquid:70](_includes/head.liquid#L70)) and sitemap exactly
+      ([\_includes/head.liquid:70](_includes/head.liquid#L70)) and sitemap exactly
       match the served (lowercase) host. Avoids any case-variant duplicate-URL
       ambiguity.
 
 ### 1.3 Turn on Open Graph + Schema.org
 
 The theme already has full OG/Twitter/JSON-LD support in
-[_includes/metadata.liquid](_includes/metadata.liquid) — it's just gated off.
+[\_includes/metadata.liquid](_includes/metadata.liquid) — it's just gated off.
 
-- [x] **`serve_og_meta: true`** ([_config.yml:66](_config.yml#L66)) — ✅ **applied.**
+- [x] **`serve_og_meta: true`** ([\_config.yml:66](_config.yml#L66)) — ✅ **applied.**
       Now emits `og:title`, `og:description`, `og:url`, `og:image`, Twitter card tags.
-- [x] **`serve_schema_org: true`** ([_config.yml:67](_config.yml#L67)) — ✅ **applied.**
+- [x] **`serve_schema_org: true`** ([\_config.yml:67](_config.yml#L67)) — ✅ **applied.**
       Now emits the `application/ld+json` block.
-- [x] **`og_image`** ([_config.yml:68](_config.yml#L68)) — ✅ **applied:** set to
-      `https://rdllab.github.io/assets/img/rdl_logo.png`. *Optional later: replace with
-      a dedicated ~1200×630 banner — logos can look cropped in social previews.*
+- [x] **`og_image`** ([\_config.yml:68](_config.yml#L68)) — ✅ **applied:** set to
+      `https://rdllab.github.io/assets/img/rdl_logo.png`. _Optional later: replace with
+      a dedicated ~1200×630 banner — logos can look cropped in social previews._
 
 ### 1.4 Set up Google Search Console verification (config side)
 
@@ -107,24 +108,24 @@ The theme already has full OG/Twitter/JSON-LD support in
 > useless empty `<meta>` tag. Once you have the token, set both fields and flip the
 > toggle to `true`, then redeploy.
 
-- [ ] **`enable_google_verification: true`** ([_config.yml:382](_config.yml#L382)).
-- [ ] **`google_site_verification`** ([_config.yml:82](_config.yml#L82)) — paste the
+- [ ] **`enable_google_verification: true`** ([\_config.yml:382](_config.yml#L382)).
+- [ ] **`google_site_verification`** ([\_config.yml:82](_config.yml#L82)) — paste the
       verification token from Search Console (see Phase 2.1). This makes
-      [_includes/metadata.liquid:4](_includes/metadata.liquid#L4) emit the
+      [\_includes/metadata.liquid:4](_includes/metadata.liquid#L4) emit the
       `<meta name="google-site-verification">` tag.
-- [ ] *(Optional)* do the same for Bing:
+- [ ] _(Optional)_ do the same for Bing:
       `enable_bing_verification: true` + `bing_site_verification`.
 
 ### 1.5 Quick bug fix
 
-- [x] Fix the typo in `contact_note` ([_config.yml:11](_config.yml#L11)):
+- [x] Fix the typo in `contact_note` ([\_config.yml:11](_config.yml#L11)):
       `hred=` → `href=` — ✅ **applied** (the People-page link in the contact note now works).
 
 ---
 
 ## Phase 2 — Get indexed (highest impact, ~30 min + waiting)
 
-This is the step that most directly answers *"why can't I find it on Google."*
+This is the step that most directly answers _"why can't I find it on Google."_
 
 > **Sitemap note:** Submit the **plugin-generated** sitemap at
 > `https://rdllab.github.io/sitemap.xml` ([jekyll-sitemap](_config.yml#L214) builds it
@@ -142,9 +143,8 @@ This is the step that most directly answers *"why can't I find it on Google."*
 - [ ] Add a **URL-prefix property** for `https://rdllab.github.io/`.
 - [ ] Choose the **HTML tag** verification method, copy the `content` token, and put
       it into `google_site_verification` (Phase 1.4). Push/deploy, then click
-      **Verify**.
-      - *Alternative:* the "HTML file" method also works on GitHub Pages — drop the
-        provided file at the repo root so it's served at the site root.
+      **Verify**. - _Alternative:_ the "HTML file" method also works on GitHub Pages — drop the
+      provided file at the repo root so it's served at the site root.
 - [ ] In Search Console → **Sitemaps**, submit `sitemap.xml`
       (full: `https://rdllab.github.io/sitemap.xml`). The
       [jekyll-sitemap](_config.yml#L211) plugin already generates it.
@@ -169,33 +169,33 @@ This is the step that most directly answers *"why can't I find it on Google."*
 
 ### 3.1 Make the brand name unmistakable on the homepage
 
-- [ ] The homepage ([_pages/home.md](_pages/home.md)) sets `show_title: false` and the
+- [ ] The homepage ([\_pages/home.md](_pages/home.md)) sets `show_title: false` and the
       opening paragraph starts "Our lab focuses on…". Add an explicit, crawlable
       mention of **"Robust Decision Making (RDL) Lab"** and **"School of Computing,
       Australian National University"** in the first sentence / a visible heading so
       both the full name and the acronym appear in body text and the `<h1>`/`<title>`.
 - [ ] Confirm the rendered `<title>` is `Robust Decision Making Lab` (driven by
-      `title:` in [_config.yml:5](_config.yml#L5) via
-      [_includes/metadata.liquid:23-40](_includes/metadata.liquid#L23)) — good as-is.
+      `title:` in [\_config.yml:5](_config.yml#L5) via
+      [\_includes/metadata.liquid:23-40](_includes/metadata.liquid#L23)) — good as-is.
 
 ### 3.2 Per-page descriptions
 
 - [ ] Add a unique, keyword-rich `description:` to each page's front matter. Several
       are empty or still placeholders:
-  - [ ] [_pages/contact.md](_pages/contact.md) — `description:` is empty.
-  - [ ] [_pages/cv.md](_pages/cv.md) — placeholder *"This is a description of the page…"*.
-  - [ ] [_pages/projects.md](_pages/projects.md) — placeholder *"A growing collection of your cool projects."*.
-  - [ ] [_pages/people.md](_pages/people.md), [_pages/project.md](_pages/project.md),
-        [_pages/publications.md](_pages/publications.md),
-        [_pages/software.md](_pages/software.md) — tighten to ~150 chars, each
+  - [ ] [\_pages/contact.md](_pages/contact.md) — `description:` is empty.
+  - [ ] [\_pages/cv.md](_pages/cv.md) — placeholder _"This is a description of the page…"_.
+  - [ ] [\_pages/projects.md](_pages/projects.md) — placeholder _"A growing collection of your cool projects."_.
+  - [ ] [\_pages/people.md](_pages/people.md), [\_pages/project.md](_pages/project.md),
+        [\_pages/publications.md](_pages/publications.md),
+        [\_pages/software.md](_pages/software.md) — tighten to ~150 chars, each
         mentioning the lab + the page topic.
 
 ### 3.3 Images & accessibility (also an SEO signal)
 
 - [ ] Ensure every image has descriptive `alt` text (lab photos, member photos,
       project figures). The theme already does WebP + lazy-loading
-      ([_config.yml:349-372](_config.yml#L349)).
-- [ ] Set the homepage `profile.image` ([_pages/home.md:10](_pages/home.md#L10)) — it's
+      ([\_config.yml:349-372](_config.yml#L349)).
+- [ ] Set the homepage `profile.image` ([\_pages/home.md:10](_pages/home.md#L10)) — it's
       empty; a lab logo/photo here improves the page and gives an indexable image.
 
 ### 3.4 Headings & internal links
@@ -233,13 +233,13 @@ Once `serve_schema_org` is on (Phase 1.3), the JSON-LD emitted is a generic
 `WebSite`/`Person`. To get an entity Google recognizes as a research organization:
 
 - [ ] Add the social/identity fields used by
-      [_includes/metadata.liquid:82-218](_includes/metadata.liquid#L82) (e.g.
+      [\_includes/metadata.liquid:82-218](_includes/metadata.liquid#L82) (e.g.
       `github_username`, `scholar_userid`, `linkedin_username`) so a `sameAs` array
       links the site to authoritative profiles — strengthens entity disambiguation.
-- [ ] *(Advanced)* Consider a custom `Organization` / `ResearchOrganization` JSON-LD
+- [ ] _(Advanced)_ Consider a custom `Organization` / `ResearchOrganization` JSON-LD
       block for the homepage with `name`, `alternateName: "RDL Lab"`, `url`,
       `parentOrganization` (ANU), and `logo`. This can be added to
-      [_includes/metadata.liquid](_includes/metadata.liquid) or via a homepage include.
+      [\_includes/metadata.liquid](_includes/metadata.liquid) or via a homepage include.
 - [ ] Publications already get scholarly metadata via jekyll-scholar; verify the
       rendered publication pages expose author/title/year cleanly.
 
@@ -263,8 +263,8 @@ loading). Still worth confirming:
 ## Phase 7 — Analytics & monitoring (ongoing)
 
 - [ ] **Enable Google Analytics** — a GA4 ID `G-WNPSY5ZZN0` is already set
-      ([_config.yml:76](_config.yml#L76)) but `enable_google_analytics: false`
-      ([_config.yml:378](_config.yml#L378)). Flip to `true` to start collecting
+      ([\_config.yml:76](_config.yml#L76)) but `enable_google_analytics: false`
+      ([\_config.yml:378](_config.yml#L378)). Flip to `true` to start collecting
       traffic data (confirm the ID belongs to the lab).
 - [ ] **Monitor Search Console** weekly for the first month: Coverage/Pages
       (indexed count), Performance (impressions/clicks for "RDL Lab" etc.), and any
@@ -277,10 +277,10 @@ loading). Still worth confirming:
 
 The minimum set that fixes "I can't find RDL Lab in Google":
 
-1. [x] Fix `description` + `keywords` + `author` + `url` casing ([_config.yml](_config.yml)) — ✅ **done.**
+1. [x] Fix `description` + `keywords` + `author` + `url` casing ([\_config.yml](_config.yml)) — ✅ **done.**
 2. [x] `serve_og_meta: true`, `serve_schema_org: true`, set `og_image` — ✅ **done.**
 3. [ ] Verify the site in **Google Search Console** (`enable_google_verification: true`
-       + token). ← **next action for you** (Phase 2.1).
+   - token). ← **next action for you** (Phase 2.1).
 4. [ ] **Submit `sitemap.xml`** and **Request indexing** of the homepage in Search Console.
 5. [ ] Get **ANU School of Computing** and **lab members** to link to
        <https://rdllab.github.io/>.

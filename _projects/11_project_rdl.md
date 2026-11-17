@@ -40,7 +40,6 @@ do_not_show_post_desc: true
   </a>
 </div>
 
-
 <!--h2>Abstract</h2-->
 
 <p class="text-justify">
@@ -112,7 +111,6 @@ Together, these two vectorized operations transform online POMDP planning from s
     </div>
   </div>
 </div>
-
 
 <h2>Benchmark Problems</h2>
 

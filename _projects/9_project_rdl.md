@@ -19,6 +19,7 @@ Voronoi Trees
 Key to ADVT is the combination of Monte Carlo Tree Search with a new hierarchical partitioning of the action space, called <b>Voronoi Tree</b>, illustrated in Figure 1. A Voronoi Tree is a Binary Space Partitioning (BSP) of the action space, where each partitioning hyperplane is implicitly maintained based on the Voronoi diagram of a pair of sampled representative actions. At each sampled belief, ADVT maintains a Voronoi Tree that is refined adaptively during planning: Cells are refined if they either represent large, unexplored regions of the action space, or contain actions with large estimated values. This enables ADVT to quickly focus its search on the most promising regions of the action space.
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/continuous_pomdps/partition_tree.png" title="" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
     Figure 1: Illustration of the relation between a belief tree (left), the Voronoi tree associated to belief (middle) and the partition of the action space induced by the Voronoi tree (right).
 </div>
@@ -29,11 +30,13 @@ Empirical Results
 We evaluated ADVT on a set of benchmark POMDP problems with continuous state, action and observation spaces, including a manipulation problem with a 12-dimensional continuous action space. Our results indicate that ADVT scales to higher-dimensional action spaces much more effectively compared to two state-of-the-art online POMDP solvers.
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/continuous_pomdps/results_1.png" title="" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
     Figure 2: Average total discounted reward achieved by <b>ADVT</b> (ours) and the state-of-the-art solvers VOMCPOW and POMCPOW on six benchmark POMDP problems. The average is taken over 1,000 simulation runs per problem and solver.
 </div>
 
 {% include figure.liquid loading="eager" path="assets/img/project_img/continuous_pomdps/results_2.png" title="" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
     Figure 2: Average total discounted reward achieved by <b>ADVT</b> (ours) and the state-of-the-art solvers VOMCPOW and POMCPOW on the scalable manipulation problem SensorPlacement. The x-axis indicates the number of dimensions of the action space, up to a 12 dimensional continuous action space.
 </div>
@@ -53,4 +56,3 @@ Additional details and results are available in our <a target="_blank" href="/as
     <li>Nan Ye</li>
     <li>Dirk Kroese</li>    
 </ul>
-

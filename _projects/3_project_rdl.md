@@ -47,7 +47,6 @@ A simple grasping demo of using OPPT with Kinova Movo can be downloaded from our
 Details of the design and architecture are in the references below.
 </p>
 
-
 <h2> References </h2>
 
 <div class="publications">

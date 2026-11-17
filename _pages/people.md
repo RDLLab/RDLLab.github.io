@@ -12,7 +12,7 @@ position_list: [Staff, Student, Staff alumni, HDR alumni] #Make sure this is not
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  
+
   # Staff
   - name: Hanna Kurniawati
     image: people/active_members/hannaK.jpg
@@ -37,14 +37,14 @@ profiles:
   - name: Marcus Hoerger
     image: people/active_members/marcus.jpg
     position: Staff
-    personal_web: 
+    personal_web:
     email: Marcus.Hoerger@anu.edu.au
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Research Fellow<br>
       School of Computing<br>
       Australian National University</p>
-  
+
   # HDR
   - name: Ivan Ang
     image: people/active_members/ivanA.jpg
@@ -78,7 +78,7 @@ profiles:
     image: people/active_members/empty.jpg
     position: Student
     image_circular: true # crops the image to make it circular
-    personal_web: 
+    personal_web:
     email: Jingyang.You@anu.edu.au
     more_info: >
       <p>PhD candidate<br>
@@ -87,7 +87,7 @@ profiles:
     image: people/active_members/jamesLiang.jpg
     position: Student
     image_circular: true # crops the image to make it circular
-    personal_web: 
+    personal_web:
     email: Yuanchu.Liang@anu.edu.au
     more_info: >
       <p>PhD candidate<br>
@@ -96,7 +96,7 @@ profiles:
     image: people/active_members/m_rafis.jpg
     position: Student
     image_circular: true # crops the image to make it circular
-    personal_web: 
+    personal_web:
     email: Muhammad.Sudrajat@anu.edu.au
     more_info: >
       <p>PhD candidate<br>
@@ -105,12 +105,12 @@ profiles:
     image: people/active_members/rishiJoshi.jpg
     position: Student
     image_circular: true # crops the image to make it circular
-    personal_web: 
+    personal_web:
     email: Rishikesh.Joshi@anu.edu.au
     more_info: >
       <p>PhD candidate<br>
       School of Computing, ANU</p>
-  
+
   # Staff Alumni
   - name: Yongbo Chen
     image: people/active_members/yongboC.jpg
@@ -121,7 +121,7 @@ profiles:
       School of Computing, ANU<br>
       First job after RDL: Assoc Prof, Shanghai Jiaotong University
       </p>
-  - name: Jimy Cai Huang 
+  - name: Jimy Cai Huang
     image: people/alumni/empty.jpg
     position: Staff alumni
     image_circular: true # crops the image to make it circular
@@ -153,7 +153,7 @@ profiles:
       <p>Research Fellow (2015)<br>
       School of ITEE, UQ<br>
       First job after RDL: Researcher at ACFR</p>
-  
+
   # HDR ALUMNI
   - name: Jonathon Schwartz
     image: people/active_members/jonathonS.jpg

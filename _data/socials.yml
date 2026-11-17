@@ -52,4 +52,4 @@ anu_logo: # can be any name here other than the ones already defined above
 robotics_logo: # can be any name here other than the ones already defined above
   logo: assets/img/robotics.png # can be png, svg, jpg
   title: Robotics logo
-  url: 
+  url:

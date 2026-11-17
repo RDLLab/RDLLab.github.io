@@ -2,7 +2,7 @@
 layout: page
 permalink: /software/
 title: Software
-description: 'Checkout some of the Open Source Software we have released'
+description: "Checkout some of the Open Source Software we have released"
 nav: true
 nav_order: 2
 do_not_show_post_title: true
@@ -54,6 +54,7 @@ announcements:
 {% if site.data.repositories.github_repos %}
 
 <!--## GitHub Repositories-->
+
 ### Checkout some of the Open Source Software we have released
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

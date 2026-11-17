@@ -14,47 +14,46 @@ layout: page
     {% if page.profiles %}
       {% comment %} Make sure position_list not empty {% endcomment %}
       {% for position in page.position_list %}
-          {% assign members_group_by_position = page.profiles | where: "position", position %}          
-          <br>
-          <h2>{{position}}</h2>
-          
-          <!-- Member card -->
-          <div class="container">
-            <div class="row">
-              {% for profile in members_group_by_position %}
-                <div class="col-12 col-sm-6 col-md-4 text-center mb-4">
-                  {% if profile.image %}
-                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-                    {% if profile.image_circular %}
-                      {% assign profile_image_class = 'img-fluid rounded-circle' %}
-                    {% else %}
-                      {% assign profile_image_class = 'img-fluid rounded' %}
-                    {% endif %}
-                    {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-                    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-                  {% endif %}
-                  <h3>{{ profile.name }}</h3>
-                  {% if profile.more_info %}
-                    <div class="more-info mt-2">{{ profile.more_info }}</div>
-                  {% endif %}
-                  
-                  <div class="d-flex justify-content-center">
-                    {% if profile.personal_web %}
-                      <a href="{{ profile.personal_web }}" title="Personal Website" style="margin: 0px 5px">
-                        <i class="fa-solid fa-address-card" style="font-size: 35px;"></i>                      
-                      </a> 
-                    {% endif %}
-                    {% if profile.email %}
-                      <a href="mailto:{{ profile.email }}" title="Email" style="margin: 0px 5px">
-                        <i class="fa-solid fa-envelope" style="font-size: 35px;"></i>
-                      </a>
-                    {% endif %}
-                  </div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
+        {% assign members_group_by_position = page.profiles | where: 'position', position %}
+        <br>
+        <h2>{{ position }}</h2>
 
+        <!-- Member card -->
+        <div class="container">
+          <div class="row">
+            {% for profile in members_group_by_position %}
+              <div class="col-12 col-sm-6 col-md-4 text-center mb-4">
+                {% if profile.image %}
+                  {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                  {% if profile.image_circular %}
+                    {% assign profile_image_class = 'img-fluid rounded-circle' %}
+                  {% else %}
+                    {% assign profile_image_class = 'img-fluid rounded' %}
+                  {% endif %}
+                  {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                {% endif %}
+                <h3>{{ profile.name }}</h3>
+                {% if profile.more_info %}
+                  <div class="more-info mt-2">{{ profile.more_info }}</div>
+                {% endif %}
+
+                <div class="d-flex justify-content-center">
+                  {% if profile.personal_web %}
+                    <a href="{{ profile.personal_web }}" title="Personal Website" style="margin: 0px 5px">
+                      <i class="fa-solid fa-address-card" style="font-size: 35px;"></i>
+                    </a>
+                  {% endif %}
+                  {% if profile.email %}
+                    <a href="mailto:{{ profile.email }}" title="Email" style="margin: 0px 5px">
+                      <i class="fa-solid fa-envelope" style="font-size: 35px;"></i>
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
       {% endfor %}
     {% endif %}
   </article>
