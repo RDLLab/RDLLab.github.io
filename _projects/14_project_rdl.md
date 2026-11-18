@@ -4,7 +4,7 @@ title: "VOiLA: Vectorized Online Planning with Learned Diffusion Models for POMD
 center_title: true
 description: "VOiLA combines task-agnostic learned POMDP world models with massively parallel online planning, generalizing to unseen environments and transferring from simulation to a real quadruped."
 img: assets/img/project_img/voila/overview.png
-importance: 12
+importance: 14
 category: active
 do_not_show_post_desc: true
 ---
@@ -278,5 +278,5 @@ VOiLA successfully located and reached the target in
 <h2>References</h2>
 
 <div class="publications">
-  {% bibliography --file project_12.bib %}
+  {% bibliography --file project_14.bib %}
 </div>
