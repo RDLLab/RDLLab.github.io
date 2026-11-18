@@ -165,6 +165,11 @@ ninja.data = [{
           description: "LARBRID: fine-tunes the initial noise of frozen diffusion and flow policies through a shared linear-MDP representation that removes noise aliasing, with near-optimal fine-tuning guarantees and up to 2-3× performance gains on robotic control tasks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project_rdl/";
+            },},{id: "projects-voila-vectorized-online-planning-with-learned-diffusion-models-for-pomdp-agents",
+          title: 'VOiLA: Vectorized Online Planning with Learned Diffusion Models for POMDP Agents',
+          description: "VOiLA combines task-agnostic learned POMDP world models with massively parallel online planning, generalizing to unseen environments and transferring from simulation to a real quadruped.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project_rdl/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
